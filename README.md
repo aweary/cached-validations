@@ -14,6 +14,8 @@ Create a validation schema and then you can create a validation function that ta
 
 If an error has already been returned for a specific value then it will be cached and returned on the next invocation, making this a relatively performant option for doing things like form validations on `keyup`.
 
+**Note: this module uses the ES6 `Map` and will require the user to provide a polyfill for unsupported browsers.**
+
 ```js
 
 import createValidator from 'cached-validations';
