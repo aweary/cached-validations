@@ -2,7 +2,7 @@
 
 > Create validation functions that cache results
 
-![Example](http://i.imgur.com/N3srEa3.png)
+![Example](http://i.imgur.com/aax7Ie1.png)
 
 ## Install
 
